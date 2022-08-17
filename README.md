@@ -1,6 +1,6 @@
-# TensorFlow Lite IoT Image Classifier
+# Image Classifier
 
-This sample demonstrates how to run TensorFlow Lite inference on Android Things.
+This sample demonstrates how to run TensorFlow Lite inference on Smart Phone.
 Push a button to capture an image with the camera, and TensorFlow Lite will tell
 you what it is!
 Follow the [Image Classifier Codelab](https://codelabs.developers.google.com/codelabs/androidthings-classifier)
@@ -45,8 +45,7 @@ Note: this sample requires a camera. Find an appropriate board in the
 
 ## Pre-requisites
 
-- Android Things compatible board and an attached camera
-- Android Studio 2.2+
+- Smartphone compatible board and an attached camera
 - The following **optional** components:
     - one button and one resistor for triggering the camera
     - one LED and one resistor for the "ready" indicator
