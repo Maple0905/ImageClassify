@@ -37,12 +37,6 @@ dependencies {
 Note: this sample requires a camera. Find an appropriate board in the
 [documentation](https://developer.android.com/things/hardware/developer-kits.html).
 
-## Screenshots
-
-![TensorFlow Lite image classifier sample demo][demo-gif]
-
-[(Watch the demo on YouTube)][demo-yt]
-
 ## Pre-requisites
 
 - Smartphone compatible board and an attached camera
@@ -51,10 +45,6 @@ Note: this sample requires a camera. Find an appropriate board in the
     - one LED and one resistor for the "ready" indicator
     - speaker or headphones for Text-To-Speech results
     - touchscreen or display for showing results
-
-## Schematics
-
-![Schematics](rpi3_schematics_tf.png)
 
 ## Run on Android Things Starter Kit
 
@@ -65,8 +55,6 @@ To run the sample on your i.MX7D development board:
   2. Navigate to the Apps tab
   3. Select Run next to the Image Classifier sample.
   4. Press the "A" button on your Rainbow HAT or tap on the display to take a photo.
-
-![Running Image Classifier Sample on Toolkit][toolkit-jpg]
 
 ## Build and Install
 
@@ -89,24 +77,6 @@ If you have everything set up correctly:
    both the image and the results will be shown
 1. If a speaker or headphones are connected, the results will be spoken via
    text to speech
-
-## Enable auto-launch behavior
-
-This sample app is currently configured to launch only when deployed from your
-development machine. To enable the main activity to launch automatically on boot,
-add the following `intent-filter` to the app's manifest file:
-
-```xml
-<activity ...>
-
-   <intent-filter>
-       <action android:name="android.intent.action.MAIN"/>
-       <category android:name="android.intent.category.HOME"/>
-       <category android:name="android.intent.category.DEFAULT"/>
-   </intent-filter>
-
-</activity>
-```
 
 ## License
 
